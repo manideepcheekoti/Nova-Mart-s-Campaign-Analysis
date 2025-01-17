@@ -1,0 +1,70 @@
+ The operations team wants to ensure the integrity of the events data by removing
+ duplicates. Check for and remove duplicate rows in the events dataframe based
+ on store_id, campaign_id, and product_code. How many duplicate rows were
+ removed?
+ 2. Howmany cities have more than 5 stores?
+ 3. The sales team has identified missing values in the quantity_sold(before_promo)
+ data. Estimate these values using the median quantity sold before the promotion.
+ How many missing values were filled, and what is the median used for
+ imputation?
+ 4. Identify the product category with the lowest base price before the promotion.
+ 5. What is the total quantity sold after the promotion for the BOGOF promo type
+ during the Diwali campaign?
+ 6. Which store recorded the highest quantity sold after the promotion during the
+ Diwali campaign?
+ 7. Understand which campaigns had the most successful outcomes. Compare the
+ total quantities sold before and after the promotions for the Sankranti and Diwali
+ campaigns. Which campaign saw a greater increase in sales?
+ 8. Which product recorded the highest Incremental Revenue Percentage (IR%)
+ during the Sankranti campaign? What is the IR% for this product?
+ 9. Which store in Visakhapatnam recorded the lowest Incremental Sold Units
+ Percentage (ISU%) during the Diwali campaign? What is the ISU% for that
+ store?
+ 10.Which promo type had both a negative Incremental Revenue Percentage (IR%)
+ and Incremental Sold Units Percentage (ISU%) during the Sankranti campaign?
+
+
+
+
+
+ Create visuals and provide insights for the requested business questions below.
+ 1. Visualize the number of stores in each city. Identify the city with the most stores
+ and explain the distribution of stores across other cities. How does the number of
+ stores in Bengaluru compare with those in Hyderabad and Chennai?
+ (Hint: Use a bar chart to visualize the number of stores by city)
+ 2. Analyze the total quantity sold after promotion for the Sankranti campaign across
+ different product categories. What percentage does each category contribute to
+ the overall sales, and what insights can be drawn from these contributions?
+ (Hint: Use a pie chart to visualize percentage contribution of each category to the overall sales)
+ 3. Examine the correlation between base price (after the promotion) and sales
+ quantities (after the promotion). What insights can be drawn regarding the
+ relationship between base price and sales quantities after the promotion?
+ (Hint: Use heatmap to get the correlation)
+ 4. Analyze the distribution of quantity sold before the promotion for each product
+ category (Grocery & Staples, Home Care, Personal Care, Home Appliances,
+ etc.). What patterns or trends do you observe across these categories, and how
+ could these insights inform future promotional strategies?
+ (Hint: Use individual histograms to visualize the distribution)
+ 5. Analyze the incremental sold units percentage (ISU%) across various cities.
+ Identify the city with the highest ISU% after the promotion and the city with the
+ smallest change. What trends can be observed about the effectiveness of promotions in driving sales across these cities?
+ (Hint: Use a line chart to visualize the ISU% comparison across cities)
+ 6. Analyze the relationship between incremental revenue and incremental sold units
+ for different promotion types in Hyderabad. Which promotion type led to the
+ highest incremental sold units, and which one generated the highest incremental
+ revenue? What insights can you draw from the balance between the two metrics
+ for this city?
+ (Hint: Use a scatter plot to analyze the relationship)
+ 7. Analyze the revenue before and after promotions across different product
+ categories in Bengaluru. What trends can be identified in the performance of
+ each category, and how did promotions impact overall revenue in the city?
+ (Hint: Use a vertical bar chart to compare the revenue before and after promotions)
+ Key Metrics:
+ ● IR%(Incremental Revenue): IR% measures the percentage change in revenue
+ after a promotion compared to the revenue before the promotion. It helps assess
+ how effective a promotion was in driving revenue growth.
+ ● ISU%(Incremental Sold Units): ISU% calculates the percentage change in the
+ number of units sold after a promotion compared to the units sold before the
+ promotion. It indicates the effectiveness of a promotion in boosting sales volume.
+
+-------------------------------------------------------------------------------------------------------------------
